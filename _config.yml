@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Notes
+tagline:             'Notes about tech stuff'
+description:         'Notes about tech stuff'
+url:                 http://madusudanan.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Madusudanan.B.N
+  url:               https://twitter.com/@BMadusudanan
+  email:             b.n.madusudanan@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+gems:
+    [jekyll-paginate]
