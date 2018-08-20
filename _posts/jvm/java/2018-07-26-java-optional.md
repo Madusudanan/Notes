@@ -172,3 +172,5 @@ public static void main(String[] args) {
 So we can call this with `null` then it prints "Null value". If the String is of zero length then we print "Illegal value" or else if the String is greater than 0 length and not null it prints the String itself.
 
 There are other powerful higher order functions such as `flatMap` etc., which can be extended and used. But this should be sufficient to use `Optional` as mainstream in Java.
+
+The main reason why `Optional` should be used wherever nulls are possible is because they express the intent that the value could be null and hence we are using alternate logic for it. It is upto the developer to use it wisely.
