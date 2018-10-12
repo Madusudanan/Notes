@@ -260,3 +260,5 @@ To summarize
 - Contra-variance
 
 It is very important to understand variance as it used in Akka Streams pretty heavily.
+
+Reference - [Covariance, Invariance and Contravariance explained in plain English?](https://stackoverflow.com/questions/8481301/covariance-invariance-and-contravariance-explained-in-plain-english)
