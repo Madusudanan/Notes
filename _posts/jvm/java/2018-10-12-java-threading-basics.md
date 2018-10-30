@@ -166,7 +166,24 @@ t1.interrupt();
 
 This will print the message Interrupted and the program will exit. 
 
-This post will keep expanding with examples.
+Further Topics
+--------------
+
+Below are basic concepts regarding concurrent programming
+
+- Race conditions
+- Deadlock
+- Locks managed by JVM i.e synchronize keyword on methods/objects - Structured locks
+- Manual locking/Unstructured locks - Read/Write lock, Re-entrant lock etc.,
+- Critical section/Mutual exclusion
+- Object based isolation
+- Atomic variables - Implemented in Hardware itself natively.
+- Actors
+- Optimistic concurrency
+
+Critical sections, Mutual exclusion, Atomic variables are higher level abstractions i.e they use unstructured locks behind the scenes without us having to worry about lower level semantics.
+
+All of the concurrency primitives evolved to higher level abstractions so that it is easier to program in and also provide more fine grained control over locks and hence enabling better performance.
 
 
 
